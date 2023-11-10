@@ -1,5 +1,15 @@
 .headerbox {
+  display: flex;
   background-color: #949292;
-  color: white;
-  text-align: center;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin: 2rem;
 }/*# sourceMappingURL=landingpage.css.map */
