@@ -1,15 +1,40 @@
-.headerbox {
-  display: flex;
-  background-color: #949292;
-  width: 100%;
-}
-
-nav ul {
+ul {
   list-style: none;
-  display: flex;
-  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #949292;
 }
 
-nav li {
-  margin: 2rem;
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.imagecontainer {
+  position: relative;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.welcome {
+  position: absolute;
+  top: 25%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+.introduction {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }/*# sourceMappingURL=landingpage.css.map */

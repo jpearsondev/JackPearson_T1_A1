@@ -1,17 +1,42 @@
 $headercolor: #949292;
 
- .headerbox {
-    display: flex;
-    background-color: $headercolor;
-    width: 100%;
-}
-
-nav ul {
+ul {
     list-style: none;
-    display: flex;
-    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $headercolor;
 }
 
-nav li {
-    margin: 2rem;
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+.imagecontainer {
+    position: relative;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.welcome {
+    position: absolute;
+    top: 25%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.introduction {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
 }
