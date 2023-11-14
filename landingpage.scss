@@ -18,7 +18,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: .5rem;
+    padding: 1.5rem;
     text-decoration: none;
 }
 
@@ -90,4 +90,11 @@ body {
     margin: 1%;
     display: inline-block;
     background-color: $blogboxcolor;
+}
+
+.footerli {
+    display: inline-block;
+    color: white;
+    padding: 2.5rem;
+    
 }
