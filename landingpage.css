@@ -3,14 +3,14 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #949292;
+  background-color: #4D4E4E;
 }
 
-li {
+.headerli {
   float: right;
 }
 
-li a {
+.headerli a {
   display: block;
   color: white;
   text-align: center;
@@ -37,4 +37,9 @@ li a {
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
+}
+
+body {
+  background-color: #BABDBD;
+  text-align: center;
 }/*# sourceMappingURL=landingpage.css.map */

@@ -1,4 +1,5 @@
-$headercolor: #949292;
+$headercolor: #4D4E4E;
+$bodycolor: #BABDBD;
 
 ul {
     list-style: none;
@@ -8,11 +9,11 @@ ul {
     background-color: $headercolor;
 }
 
-li {
+.headerli {
     float: right;
 }
 
-li a {
+.headerli a {
     display: block;
     color: white;
     text-align: center;
@@ -39,4 +40,9 @@ li a {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
+}
+
+body {
+    background-color: $bodycolor;
+    text-align: center;
 }
