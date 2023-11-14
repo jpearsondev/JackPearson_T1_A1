@@ -1,5 +1,6 @@
 $headercolor: #4D4E4E;
 $bodycolor: #BABDBD;
+$blogboxcolor: #15a8bb;
 
 ul {
     list-style: none;
@@ -45,4 +46,48 @@ ul {
 body {
     background-color: $bodycolor;
     text-align: center;
+}
+
+
+
+.blog1 {
+    width: 10%;
+    height: 10rem;
+    margin: 1%;
+    display: inline-block;
+    flex-direction: row;
+    background-color: $blogboxcolor;
+}
+
+.blog2 {
+    width: 10%;
+    height: 10rem;
+    margin: 1%;
+    display: inline-block;
+    flex-direction: row;
+    background-color: $blogboxcolor;
+}
+
+.blog3 {
+    width: 10%;
+    height: 10rem;
+    margin: 1%;
+    display: inline-block;
+    background-color: $blogboxcolor;
+}
+
+.blog4 {
+    width: 10%;
+    height: 10rem;
+    margin: 1%;
+    display: inline-block;
+    background-color: $blogboxcolor;
+}
+
+.blog5 {
+    width: 10%;
+    height: 10rem;
+    margin: 1%;
+    display: inline-block;
+    background-color: $blogboxcolor;
 }
