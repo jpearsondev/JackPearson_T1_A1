@@ -47,15 +47,19 @@ body {
     text-align: center;
 }
 
-
+.flex-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
 
 .blog1 {
     border-radius: 100%;
     width: 10%;
     height: 11rem;
     margin: 1%;
-    display: inline-block;
-    flex-direction: row;
+    align-items: center;
     background-color: $blogboxcolor;
 }
 
@@ -64,8 +68,6 @@ body {
     width: 10%;
     height: 11rem;
     margin: 1%;
-    display: inline-block;
-    flex-direction: row;
     background-color: $blogboxcolor;
 }
 
@@ -74,7 +76,6 @@ body {
     width: 10%;
     height: 11rem;
     margin: 1%;
-    display: inline-block;
     background-color: $blogboxcolor;
 }
 
@@ -83,7 +84,6 @@ body {
     width: 10%;
     height: 11rem;
     margin: 1%;
-    display: inline-block;
     background-color: $blogboxcolor;
 }
 
@@ -92,7 +92,6 @@ body {
     width: 10%;
     height: 11rem;
     margin: 1%;
-    display: inline-block;
     background-color: $blogboxcolor;
 }
 
