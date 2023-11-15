@@ -10,14 +10,26 @@ ul {
     background-color: $headercolor;
 }
 
+.logoimage {
+    height: 5rem;
+    margin-left: 15%;
+}
+
 .headerli {
     float: right;
+}
+
+.blogs {
+    float: left;
+    display: block;
+    color: white;
+    padding: 2rem;
 }
 
 .headerli a {
     display: block;
     color: white;
-    padding: 1.5rem;
+    padding: 2rem;
     text-decoration: none;
 }
 
