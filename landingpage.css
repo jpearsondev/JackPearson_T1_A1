@@ -63,6 +63,7 @@ body {
 
 .flex-container :hover {
   background-color: #4D4E4E;
+  color: white;
 }
 
 .blogs {
