@@ -1,6 +1,7 @@
 $headercolor: #4D4E4E;
 $bodycolor: #BABDBD;
-$blogboxcolor: #92cfd8;
+$blogboxcolor: #58a3e9;
+$blogboxcolor2: #7b7e80;
 
 .navbar {
     overflow: hidden;
@@ -162,7 +163,7 @@ body {
 }
 
 .flex-container :hover {
-    background-color: $headercolor;
+    background-color: $blogboxcolor2;
     color: white;
 }
 
