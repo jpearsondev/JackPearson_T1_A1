@@ -126,17 +126,19 @@ ul {
 
 .welcome {
   position: absolute;
-  top: 25%;
+  top: 50%;
   left: 49%;
   transform: translate(-50%, -50%);
+  font-size: 2rem;
 }
 
 .introduction {
   position: absolute;
-  top: 52%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
+  font-size: 1.5rem;
 }
 
 body {
