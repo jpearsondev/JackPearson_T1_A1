@@ -2,6 +2,67 @@ $headercolor: #4D4E4E;
 $bodycolor: #BABDBD;
 $blogboxcolor: #92cfd8;
 
+.navbar {
+    overflow: hidden;
+    background-color: $headercolor;
+    font-family: Arial;
+  }
+
+  .navbar a {
+    float: right;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0.8rem 1rem;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 0.6rem 1rem;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: $blogboxcolor;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 ul {
     list-style: none;
     margin: 0;
@@ -13,17 +74,6 @@ ul {
 .logoimage {
     height: 5rem;
     margin-left: 10.5%;
-}
-
-.headerli {
-    float: right;
-}
-
-.headerli a {
-    display: block;
-    color: white;
-    padding: 2rem;
-    text-decoration: none;
 }
 
 .imagecontainer {
