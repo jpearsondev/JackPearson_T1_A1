@@ -19,13 +19,6 @@ ul {
     float: right;
 }
 
-.blogs {
-    float: left;
-    display: block;
-    color: white;
-    padding: 2rem;
-}
-
 .headerli a {
     display: block;
     color: white;
@@ -72,8 +65,15 @@ body {
     align-items: center;
 }
 
-.flex-container a:hover {
+.flex-container :hover {
     background-color: $headercolor;
+}
+
+.blogs {
+    float: left;
+    display: block;
+    color: white;
+    padding: 2rem;
 }
 
 .blog1 {
@@ -123,8 +123,9 @@ body {
 }
 
 .footerli a {
-    text-decoration: none;
     color: white;
+    padding: 2rem;
+    text-decoration: none;
 }
 
 li a:hover {
