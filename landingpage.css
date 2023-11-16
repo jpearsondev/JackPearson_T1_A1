@@ -144,6 +144,11 @@ body {
   text-align: center;
 }
 
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .flex-container {
   display: flex;
   text-align: center;
