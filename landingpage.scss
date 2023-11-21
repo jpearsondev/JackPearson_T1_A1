@@ -18,7 +18,19 @@ $blogboxcolor2: #7b7e80;
     text-decoration: none;
   }
 
+  @media screen and (max-width: 500px) {
+ .dropdown2 {
+  display: none;
+  }
+ }
+
+ @media screen and (max-width: 380px) {
   .dropdown {
+    display: none;
+  }
+ }
+
+ .dropdown {
     float: right;
     overflow: hidden;
   }
@@ -123,21 +135,38 @@ ul {
     margin-left: 8%;
 }
 
+@media screen and (max-width:1000px) {
+.welcome .introduction {
+  font-size: 6vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .introduction {
+    top: 75%
+  }
+}
+
 .welcome {
-    position: absolute;
-    top: 32%;
-    left: 49%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
+  display: flex;  
+  position: absolute;
+  top: 15%;
+  left: 49%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+}
+
+.welcomeimage {
+  position: relative;
 }
 
 .introduction {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 1.5rem;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }
 
 body {
